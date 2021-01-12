@@ -42,10 +42,6 @@ class FunnyRange:
 weird_sequence = FunnyRange()[5]
 print(list(FunnyRange()))
 
-import string
-for i,j in enumerate(string.ascii_lowercase[::2]):
-    print(i, j)
-
 
 def check_whitespace(lines):
 
